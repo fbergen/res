@@ -1,12 +1,8 @@
-// use std::process::Command;
-// use std::sync::mpsc::channel;
-
+use clap::{App, AppSettings};
 use psutil::process::Process;
 use std::fmt;
-use tokio::process::Command;
-// use tokio::sync::mpsc::channel;
-use clap::{App, AppSettings};
 use std::{thread, time};
+use tokio::process::Command;
 use tokio::sync::oneshot;
 use tokio::sync::oneshot::error::TryRecvError;
 
