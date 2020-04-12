@@ -1,6 +1,9 @@
 # res
 utility for measuring and displaying resources used by a program
 
+# Installation
+
+`cargo install --git https://github.com/fbergen/res`
 
 # Usage
 
