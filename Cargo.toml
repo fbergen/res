@@ -1,0 +1,12 @@
+[package]
+name = "res"
+version = "0.1.0"
+authors = ["Fredrik Bergenlid <fredrik.bergenlid@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2.17", features = ["full", "process", "sync"] }
+psutil = { version = "3.0.1", default-features = false, features = ["process"] }
+clap = "2.33.0"
